@@ -21,6 +21,42 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
+    <Filter Include="Header Files\Domain">
+      <UniqueIdentifier>{7d7dee8e-1805-4424-b21d-13df80899c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repository">
+      <UniqueIdentifier>{f3831bd6-3cd5-4eee-b455-86ad631157b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service">
+      <UniqueIdentifier>{f239ac86-8a18-449a-9751-b722c71046ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{3305514b-e4c1-486c-965e-6e9d13172c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Qt">
+      <UniqueIdentifier>{0dfbcfc3-b62a-4a3a-920a-4503035a6e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UndoRedoLogic">
+      <UniqueIdentifier>{273874ea-e089-4d65-b507-d869a8f33434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domain">
+      <UniqueIdentifier>{8761fd00-f7ed-44cf-9688-d9848da4f383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UndoRedoLogic">
+      <UniqueIdentifier>{887bacbb-c323-49c5-8ee4-76e78e09ee6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{0dd67f72-432e-4e91-842a-8068631d7e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repository">
+      <UniqueIdentifier>{df061363-51d9-4830-a473-241c932cca27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qt">
+      <UniqueIdentifier>{f1172db2-fc68-4346-a7ff-9d6d86685f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{63d3b3d4-b994-4337-986e-7a0a8dea2207}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="App.qrc">
@@ -40,94 +76,94 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AdminService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FIleRepo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Movie.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Repo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="UI.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="UserService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Validator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WatchlistRepo.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\UndoRedoLogic</Filter>
     </ClCompile>
     <ClCompile Include="AdminGUI.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Qt</Filter>
     </ClCompile>
-    <ClCompile Include="UserGUI.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="AdminService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="FIleRepo.cpp">
+      <Filter>Source Files\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Movie.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo.cpp">
+      <Filter>Source Files\Repository</Filter>
     </ClCompile>
     <ClCompile Include="SelectFileForm.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Qt</Filter>
     </ClCompile>
-    <ClCompile Include="Action.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="UserGUI.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="UserService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WatchlistRepo.cpp">
+      <Filter>Source Files\Repository</Filter>
     </ClCompile>
     <ClCompile Include="WatchlistTableModel.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Qt</Filter>
     </ClCompile>
     <ClCompile Include="WatchlistWidget.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Qt</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AdminService.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Comparator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FileRepo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Movie.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MyException.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Repo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sort.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Tests.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UserService.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Validator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VectorUtils.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Domain</Filter>
     </ClInclude>
     <ClInclude Include="WatchlistRepo.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparator.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileRepo.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="MyException.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo.h">
+      <Filter>Header Files\Repository</Filter>
     </ClInclude>
     <ClInclude Include="Action.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\UndoRedoLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\Qt</Filter>
+    </ClInclude>
+    <ClInclude Include="UserService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorUtils.h">
+      <Filter>Header Files\Utils</Filter>
     </ClInclude>
     <ClInclude Include="WatchlistTableModel.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Qt</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -145,16 +181,16 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="AdminGUI.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="UserGUI.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Qt</Filter>
     </QtMoc>
     <QtMoc Include="SelectFileForm.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Qt</Filter>
+    </QtMoc>
+    <QtMoc Include="UserGUI.h">
+      <Filter>Header Files\Qt</Filter>
     </QtMoc>
     <QtMoc Include="WatchlistWidget.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Qt</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
